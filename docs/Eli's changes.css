@@ -1,0 +1,59 @@
+body, input, select, textarea 
+		{
+		color: #000000;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 17pt;
+		font-weight: 300;
+		letter-spacing: 0.025em;
+		line-height: 1.65;
+		}
+		
+#panel 	{
+		padding: 4em 4em 2em 4em ;
+		-moz-transform: translateY(100vh);
+		-webkit-transform: translateY(100vh);
+		-ms-transform: translateY(100vh);
+		transform: translateY(100vh);
+		-moz-transition: -moz-transform 0.5s ease;
+		-webkit-transition: -webkit-transform 0.5s ease;
+		-ms-transition: -ms-transform 0.5s ease;
+		transition: transform 0.5s ease;
+		-webkit-overflow-scrolling: touch;
+		background: #8a8a8a;
+		bottom: 4em;
+		left: 0;
+		max-height: calc(80vh - 4em);
+		overflow-y: auto;
+		position: fixed;
+		width: 100%;
+		z-index: 10001;
+		}
+		
+		header nav > ul > li a.active 
+		{
+		background-color: #8a8a8a;
+		}
+		
+#header {
+		-moz-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		-moz-transition: -moz-transform 1s ease;
+		-webkit-transition: -webkit-transform 1s ease;
+		-ms-transition: -ms-transform 1s ease;
+		transition: transform 1s ease;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-webkit-user-select: none;
+		background: #8a8a8a;
+		bottom: -1em;
+		height: 5em;
+		left: 0;
+		line-height: 4em;
+		padding: 0 1.5em;
+		position: fixed;
+		user-select: none;
+		width: 100%;
+		z-index: 10002;
+		}
